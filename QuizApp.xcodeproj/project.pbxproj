@@ -13,6 +13,7 @@
 		A10A37A51E2E57EA004E6C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10A37A31E2E57EA004E6C25 /* Main.storyboard */; };
 		A10A37A71E2E57EA004E6C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10A37A61E2E57EA004E6C25 /* Assets.xcassets */; };
 		A10A37AA1E2E57EA004E6C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10A37A81E2E57EA004E6C25 /* LaunchScreen.storyboard */; };
+		A10A37B31E2E59C4004E6C25 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = A10A37B21E2E59C4004E6C25 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A10A37A61E2E57EA004E6C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10A37A91E2E57EA004E6C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A10A37AB1E2E57EA004E6C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10A37B11E2E59C4004E6C25 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		A10A37B21E2E59C4004E6C25 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A10A37A81E2E57EA004E6C25 /* LaunchScreen.storyboard */,
 				A10A37AB1E2E57EA004E6C25 /* Info.plist */,
 				A10A379A1E2E57EA004E6C25 /* Supporting Files */,
+				A10A37B11E2E59C4004E6C25 /* Model.h */,
+				A10A37B21E2E59C4004E6C25 /* Model.m */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				A10A37A21E2E57EA004E6C25 /* ViewController.m in Sources */,
 				A10A379F1E2E57EA004E6C25 /* AppDelegate.m in Sources */,
 				A10A379C1E2E57EA004E6C25 /* main.m in Sources */,
+				A10A37B31E2E59C4004E6C25 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
